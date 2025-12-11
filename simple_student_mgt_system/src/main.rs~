@@ -1,0 +1,56 @@
+use std::collections::HashMap;
+
+#[derive(Debug)]
+#[allow(dead_code)]
+
+struct Students {
+    name: String,
+    major: String,
+    subjects: Vec<String>,
+    scores: Vec<u16>,
+    subject_scores: HashMap<String, u16>,
+}
+
+impl Students {
+    fn total_score(&self) -> u16 {
+        let total: u16 = self.subject_scores.values().sum();
+        return total;
+    }
+
+    fn avg_score(&self) -> u16 {
+        let avg = self.total_score() / (self.subject_scores.len() as u16);
+        return avg;
+    }
+
+    fn gpa(&self) -> char {
+        let gpa_score = self.avg_score();
+
+        match gpa_score {
+            90..=100 => 'A',
+            80..=89 => 'B',
+            70..=79 => 'C',
+            60..=69 => 'D',
+            _ => 'F',
+        }
+    }
+}
+
+fn main() {
+    let stud1 = Students {
+        name: String::from("Yankho Ngolleka"),
+        major: String::from("Computer Science"),
+        subject_scores: HashMap::from([
+            (String::from("Mathematics"), 85),
+            (String::from("Physics"), 90),
+            (String::from("Chemistry"), 78),
+            (String::from("Biology"), 88),
+        ]),
+    };
+    println!(
+        "Student1\n\n1.{:#?}\ntotal score = {}\naverage score = {}",
+        stud1,
+        stud1.total_score(),
+        stud1.avg_score()
+    );
+    println!("GPA = {}", stud1.gpa());
+}
