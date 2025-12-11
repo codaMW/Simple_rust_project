@@ -1,0 +1,1 @@
+C:\Users\USER\Simple_rust_project\max_of_three_numbers\target\debug\max_of_three_numbers.exe: C:\Users\USER\Simple_rust_project\max_of_three_numbers\src\main.rs C:\Users\USER\Simple_rust_project\max_of_three_numbers\src\max_num.rs
