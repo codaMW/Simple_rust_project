@@ -1,0 +1,7 @@
+fn main() {
+
+    let name = String::from("Yankho Ngolleka");
+    let initial = &name[0..1];
+    //let init = initial[0];
+    println!("{initial}");
+}
