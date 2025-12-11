@@ -1,0 +1,1 @@
+C:\Users\USER\Simple_rust_project\fahrenheit_converter\target\debug\fahrenheit_converter.exe: C:\Users\USER\Simple_rust_project\fahrenheit_converter\src\main.rs C:\Users\USER\Simple_rust_project\fahrenheit_converter\src\temp_conv.rs
