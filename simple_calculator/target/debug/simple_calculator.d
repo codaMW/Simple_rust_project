@@ -1,0 +1,1 @@
+C:\Users\USER\Simple_rust_project\simple_calculator\target\debug\simple_calculator.exe: C:\Users\USER\Simple_rust_project\simple_calculator\src\main.rs C:\Users\USER\Simple_rust_project\simple_calculator\src\tsado.rs
