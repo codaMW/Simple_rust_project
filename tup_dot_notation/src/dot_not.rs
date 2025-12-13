@@ -1,0 +1,4 @@
+pub fn dot_notation(a: &str, b: u8) -> (&str, u8) {
+
+    (a,b)
+}

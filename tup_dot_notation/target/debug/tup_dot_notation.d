@@ -1,0 +1,1 @@
+C:\Users\USER\Simple_rust_project\tup_dot_notation\target\debug\tup_dot_notation.exe: C:\Users\USER\Simple_rust_project\tup_dot_notation\src\dot_not.rs C:\Users\USER\Simple_rust_project\tup_dot_notation\src\main.rs
