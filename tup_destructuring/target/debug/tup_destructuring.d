@@ -1,0 +1,1 @@
+C:\Users\USER\Simple_rust_project\tup_destructuring\target\debug\tup_destructuring.exe: C:\Users\USER\Simple_rust_project\tup_destructuring\src\destruct.rs C:\Users\USER\Simple_rust_project\tup_destructuring\src\main.rs
